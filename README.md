@@ -4,8 +4,10 @@ This repository contains Python code that demonstrates end-to-end data analysis 
 
 Models & Results
 
-KMeans Clustering — segmented customers into 4 distinct behavioral groups; identified a high-value middle-aged segment (~$1,345 avg spend) and an underserved youth segment (~$211 avg spend)
-KNN Classifier — predicted product category purchase with 38% accuracy (vs 33% random baseline); weak signal confirmed that demographics alone are insufficient category predictors
+KMeans Clustering — segmented customers into 4 distinct behavioral groups, identified a high value middle-aged segment ($1,345 avg spend) and an underserved youth segemnt ($211 avg spend)
+
+KNN — predicted product category purchase with 38% accuracy, weak signal confirmed that demographics alone are insufficient category predictors
+
 MLP Neural Network — achieved R²=0.995 and MAE=$23 vs Linear Regression's MAE=$173, demonstrating the value of non-linear modeling for revenue prediction
 
 Key Business Insights
